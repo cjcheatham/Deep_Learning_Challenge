@@ -60,5 +60,12 @@ The purpose of this analysis was to create a tool for the nonprofit foundation A
 
     * Second Attempt: Consisted of 3 hidden layers, layer 1 = 1o nuerons relu activation, layer 2 = 8 nuerons sigmoid activation, and layer 3 = 6 nuerons sigmoid activation. Outer layer = 1 unit sigmoid activation.
 
-    * Third Attempt: Consisted of 3 hidden layers, layer 1 = 7 nuerons relu activation, layer 2 = 14 nuerons relu activation, and layer 3 = 21 nuerons
+    * Third Attempt: Consisted of 3 hidden layers, layer 1 = 7 nuerons relu activation, layer 2 = 14 nuerons relu activation, and layer 3 = 21 nuerons  relu activation. Outer layer = 1 unit sigmoid activation.
 
+* Were you able to achive target performace?
+
+    * No, the best test model performace achieved was  72.83% accuracy.
+
+### Summary
+
+Unfortunately, there were little to no differences between each of the optimization models. The only option I can think of for further optimization was the inclusion of more layers with over 100 neurels for each, but the problem with this is the processing power to do so> However, based on my work done, the relu activation seemed to be the most affective.
